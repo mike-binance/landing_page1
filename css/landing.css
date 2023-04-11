@@ -1,5 +1,5 @@
 * {
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ header .logo {
 }
 
 nav a {
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .hero {
@@ -72,13 +72,14 @@ nav a {
 
 .information {
     text-align: center;
-    padding: 0 200px;
+    padding: 50px 200px;
 }
 
 .information h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin-bottom: 20px;
 }
 
 .cards {
@@ -101,10 +102,53 @@ nav a {
 .quote {
     background-color: #e5e7eb;
     font-size: 32px;
-    padding: 40px 250px;
+    padding: 40px 150px;
+    font-style: italic;
 }
 
 #quoter {
     text-align: right;
     font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    margin: 40px 100px;
+    color: white;
+    padding: 20px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cta-container h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cta-container p {
+    font-size: 12px;
+}
+
+.cta-container button {
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 800;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding: 30px 0px;
 }
